@@ -2,18 +2,35 @@ body {
     font-family: Arial, sans-serif;
 }
 
+.custom-navbar {
+    background-color: #0a2540;
+    padding: 16px 0;
+}
+
+.custom-navbar .navbar-brand {
+    font-weight: bold;
+    font-size: 1.4rem;
+    color: white;
+}
+
+.custom-navbar .nav-link {
+    color: #dce6f1;
+    margin-left: 15px;
+}
+
+.custom-navbar .nav-link:hover,
+.custom-navbar .nav-link.active {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
 .hero {
-    background-color: #f8f9fa;
+    background-color: #f4f6f8;
     padding: 80px 20px;
 }
 
-.hero h1 {
-    font-size: 3rem;
-    margin-bottom: 10px;
-}
-
 .footer {
-    background-color: #212529;
+    background-color: #0a2540;
     color: white;
     padding: 20px;
 }
